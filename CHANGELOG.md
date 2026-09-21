@@ -24,3 +24,8 @@
 
 ## 1.0.7
 - Add `activityBar.activeBorder` and `activityBar.activeBackground` for VSCode 1.40 update.
+
+## 1.0.8
+- Flatten translucent UI colors to opaque values so the theme renders identically
+  on builds and platforms without transparency support. The scrollbar slider stays
+  translucent by design so code remains visible beneath it.
